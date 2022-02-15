@@ -10,6 +10,12 @@ npm install
 ```bash
 # show comands
 node index.js --help 
+
+# encrypt file
+node index.js -f file.txt -th sha512
+
+# compare files
+node index.js -c -o origin-file.txt -h hash-file.txt -th sh512
 ```
 
 
